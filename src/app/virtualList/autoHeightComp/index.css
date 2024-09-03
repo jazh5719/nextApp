@@ -1,0 +1,37 @@
+.container {
+    height: 100%;
+    overflow: scroll;
+}
+.scrollBox {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.itemBox {
+    position: absolute;
+    width: calc(100% - 10px);
+    height: 100px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px 1px rgba(0, 0, 0, 0.1);
+}
+.itemBox:hover {
+    background: rgba(154, 234, 244, 0.4);
+    cursor: pointer;
+}
+.itemBox .title {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.itemBox .desc {
+    font-size: 14px;
+    color: #999;
+}

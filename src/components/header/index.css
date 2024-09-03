@@ -1,0 +1,19 @@
+.headerBox {
+    height: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0 20px;
+    font-size: 15px;
+    border-radius: 6px 6px 0 0;
+}
+
+.header .ant-breadcrumb-link {
+    color: #fff;
+}
+
+.header a:hover {
+    color: aqua !important;
+}
+
+.header .ant-breadcrumb-separator {
+    color: #fff !important;
+}
